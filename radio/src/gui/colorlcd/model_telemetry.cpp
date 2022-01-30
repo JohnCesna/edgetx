@@ -612,12 +612,6 @@ void ModelTelemetryPage::build(FormWindow * window, int8_t focusSensorIndex)
     return qr.rem == 0 && isSensorAvailable(qr.quot + 1);
   });
   grid.nextLine();
-
-  // vario flysky activation
-  new StaticText(window, grid.getLabelSlot(true), STR_FLYSKY_VARIO, 0, COLOR_THEME_PRIMARY1);
-  new CheckBox(window, grid.getFieldSlot(), GET_SET_DEFAULT(g_model.varioData.flySky));
-  grid.nextLine();
-
   new StaticText(window, grid.getLabelSlot(true), STR_RANGE, 0, COLOR_THEME_PRIMARY1);
 
   auto vMin = new NumberEdit(window, grid.getFieldSlot(2, 0), -17, 17,

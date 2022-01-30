@@ -344,7 +344,6 @@ union TelemetryScreenData {
 
 PACK(struct VarioData {
   uint8_t source:7 CUST(r_tele_sensor,w_tele_sensor); // telemetry sensor idx + 1
-  uint8_t   ignoreSensorIds:0;
   uint8_t centerSilent:1;
   int8_t  centerMax;
   int8_t  centerMin;
