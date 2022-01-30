@@ -696,6 +696,7 @@
 #define TR_LIMIT                       INDENT "Limit"
 #define TR_MINRSSI                     "Min Rssi"
 #define TR_FLYSKY_TELEMETRY            TR("FlySky RSSI #", "Use FlySky RSSI value without rescalling")
+#define TR_FLYSKY_VARIO                "Activation Vario FlySky"
 #define TR_LATITUDE                    "Latitude"
 #define TR_LONGITUDE                   "Longitude"
 #define TR_GPS_COORDS_FORMAT           TR("GPS Coords", "Coordinate format")
