@@ -351,6 +351,7 @@ extern const char STR_GPS[];
 extern const char STR_GPS_COORDS_FORMAT[];
 extern const char STR_VARIO[];
 extern const char STR_FLYSKY_TELEMETRY[];
+extern const char STR_FLYSKY_VARIO[];
 extern const char STR_PITCH_AT_ZERO[];
 extern const char STR_PITCH_AT_MAX[];
 extern const char STR_REPEAT_AT_ZERO[];

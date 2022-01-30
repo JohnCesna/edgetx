@@ -631,6 +631,7 @@
 #define TR_LIMIT                        INDENT "限制"
 #define TR_MINRSSI                      "Min Rssi"
 #define TR_FLYSKY_TELEMETRY             TR("FlySky RSSI #", "使用 FlySky RSSI 值無需重縮放")
+#define TR_FLYSKY_VARIO                "Activation Vario FlySky"
 #define TR_LATITUDE                     "緯度"
 #define TR_LONGITUDE                    "經度"
 #define TR_GPS_COORDS_FORMAT            TR("GPS Coords", "方向角格式")
